@@ -2,22 +2,21 @@
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{examples_cf_applications}
+\citation{examples_cf_applications}
+\citation{papernot2016transferabilitymachinelearningphenomena}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
-\citation{examples_cf_applications}
-\citation{examples_cf_applications}
-\citation{papernot2016transferabilitymachinelearningphenomena}
-\citation{papernot2016transferabilitymachinelearningphenomena}
 \citation{dice_cf}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3}Approach}{2}{section.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{2}{section.4}\protected@file@percent }
+\newlabel{eq:transferability_rate}{{1}{2}{Experiments}{equation.4.1}{}}
 \citation{compas_dataset}
 \citation{acs_dataset}
 \citation{cifar10_dataset}
 \citation{imagenet_dataset}
 \citation{mnist_dataset}
 \citation{fashion_mnist}
-\newlabel{eq:transferability_rate}{{1}{3}{Experiments}{equation.4.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Experiment 1: Base model vs. reference model with different number of epochs}{3}{subsection.4.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Experiment 2: Base model vs. reference model with different number of parameters}{3}{subsection.4.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Data}{3}{subsection.4.3}\protected@file@percent }
@@ -25,22 +24,34 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Evaluation method}{4}{subsection.4.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {5}Results}{4}{section.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Experiment 1: Base model vs. reference model with different number of epochs}{4}{subsection.5.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Average transferability rate for additional training epochs on image datasets. CNNs were evaluated with different hyperparameters for number of layers and number of features to have a higher number of sampels.}}{5}{figure.1}\protected@file@percent }
+\newlabel{fig:add_epochs_image}{{1}{5}{Average transferability rate for additional training epochs on image datasets. CNNs were evaluated with different hyperparameters for number of layers and number of features to have a higher number of sampels}{figure.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces CEs for each experiment on the image data. In the top row, the original images are shown. In the bottom row the CEs are given.}}{6}{figure.2}\protected@file@percent }
+\newlabel{fig:examples_image}{{2}{6}{CEs for each experiment on the image data. In the top row, the original images are shown. In the bottom row the CEs are given}{figure.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Average transferability rate for additional epochs on tabular datasets, FFNNs with different hyperparameters for number of layers and features were choosen to calculate the average over a bigger sample size.}}{6}{figure.3}\protected@file@percent }
+\newlabel{fig:add_epochs_tabular}{{3}{6}{Average transferability rate for additional epochs on tabular datasets, FFNNs with different hyperparameters for number of layers and features were choosen to calculate the average over a bigger sample size}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Experiment 2: Base model vs. reference model with different number of parameters}{6}{subsection.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Transferability rate for neural networks with different number of hyperparameters. Both the reference model and base model have the same architecture but were trained seperatly.}}{7}{figure.4}\protected@file@percent }
+\newlabel{fig:arch_eval_nns}{{4}{7}{Transferability rate for neural networks with different number of hyperparameters. Both the reference model and base model have the same architecture but were trained seperatly}{figure.4}{}}
+\newlabel{fig:arch_eval_other}{{5.2}{7}{Experiment 2: Base model vs. reference model with different number of parameters}{figure.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Transferability rate for RF and K-SVM. Both the reference model and base model have the same architecture but were trained seperatly.}}{7}{figure.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Analysis}{7}{section.6}\protected@file@percent }
+\citation{mao2023crossentropylossfunctionstheoretical}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{8}{section.7}\protected@file@percent }
 \bibstyle{plain}
 \bibdata{references}
 \bibcite{acs_dataset}{{1}{}{{}}{{}}}
 \bibcite{imagenet_dataset}{{2}{}{{}}{{}}}
 \bibcite{cifar10_dataset}{{3}{}{{}}{{}}}
 \bibcite{mnist_dataset}{{4}{}{{}}{{}}}
-\bibcite{examples_cf_applications}{{5}{}{{}}{{}}}
-\bibcite{dice_cf}{{6}{}{{}}{{}}}
-\bibcite{papernot2016transferabilitymachinelearningphenomena}{{7}{}{{}}{{}}}
-\bibcite{compas_dataset}{{8}{}{{}}{{}}}
-\bibcite{fashion_mnist}{{9}{}{{}}{{}}}
-\bibcite{spearman_rank_correlation}{{10}{}{{}}{{}}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Analysis}{5}{section.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{5}{section.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {8}Outlook}{5}{section.8}\protected@file@percent }
+\bibcite{mao2023crossentropylossfunctionstheoretical}{{5}{}{{}}{{}}}
+\bibcite{examples_cf_applications}{{6}{}{{}}{{}}}
+\bibcite{dice_cf}{{7}{}{{}}{{}}}
+\bibcite{papernot2016transferabilitymachinelearningphenomena}{{8}{}{{}}{{}}}
+\bibcite{compas_dataset}{{9}{}{{}}{{}}}
+\bibcite{fashion_mnist}{{10}{}{{}}{{}}}
+\bibcite{spearman_rank_correlation}{{11}{}{{}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers
-\@writefile{toc}{\contentsline {section}{\numberline {A}Usage of AI tools}{6}{appendix.A}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {B}Statutory Declaration}{6}{appendix.B}\protected@file@percent }
-\gdef \@abspage@last{6}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Usage of AI tools}{10}{appendix.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {B}Statutory Declaration}{10}{appendix.B}\protected@file@percent }
+\gdef \@abspage@last{10}

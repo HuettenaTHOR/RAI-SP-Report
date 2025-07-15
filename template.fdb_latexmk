@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex template"] 1752312631.2638 "template.aux" "template.bbl" "template" 1752312739.90955 0
-  "./references.bib" 1752307864 5361 797a758cf2c4e010827063ef8579f36e ""
+["bibtex template"] 1752606970.71674 "template.aux" "template.bbl" "template" 1752606983.29247 0
+  "./references.bib" 1752592345 5718 b3f70494277b575069b3c8268540c939 ""
   "C:/Users/Frederik/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "template.aux" 1752312739 3057 5c88d7e37348910ef28b27a27e4f4be3 "pdflatex"
+  "template.aux" 1752606982 5675 1081e990458ed071b7cada86071cb6c3 "pdflatex"
   (generated)
   "template.bbl"
   "template.blg"
   (rewritten before read)
-["pdflatex"] 1752312737.54252 "e:/dev/RAI-SP-Report/template.tex" "template.pdf" "template" 1752312739.91049 0
+["pdflatex"] 1752606981.36598 "e:/dev/RAI-SP-Report/template.tex" "template.pdf" "template" 1752606983.29337 0
   "C:/Program Files/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty" 1576433602 40635 c40361e206be584d448876bba8a64a3b ""
   "C:/Program Files/MiKTeX/tex/generic/bitset/bitset.sty" 1575926576 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
   "C:/Program Files/MiKTeX/tex/generic/gettitlestring/gettitlestring.sty" 1576433666 8371 9d55b8bd010bc717624922fb3477d92e ""
@@ -110,12 +110,17 @@
   "C:/Users/Frederik/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/Frederik/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.cfg" 1578053545 1104 7ac475a4e3466b0b43e138e9356bda83 ""
   "C:/Users/Frederik/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
-  "e:/dev/RAI-SP-Report/template.tex" 1752312736 21134 c896ff198b01aa691dc2541e6015e54c ""
+  "abb/architecture_evaluation_nns.pdf" 1752604985 21498 d4681972f966a6828cbd6ee247ed85c5 ""
+  "abb/architecture_evaluation_other_models.pdf" 1752604954 19063 d67b1470367fb7330940c92472d144ee ""
+  "abb/counterfactual_examples.pdf" 1752599851 284486 55c23328de4da5da7814c155895eea87 ""
+  "abb/epoch_evaluation_image.pdf" 1752606442 23810 bf0a849fe9b26b7bd132599c1208e276 ""
+  "abb/epoch_evaluation_tabular.pdf" 1752604891 19171 cfca74fcaf06c6904c2272c7f1f29c96 ""
+  "e:/dev/RAI-SP-Report/template.tex" 1752606980 28956 11399ac772b3105296dfc0dc1194efce ""
   "neurips_2019.sty" 1752142180 10843 394233715107c18a0dcada975a177f68 ""
-  "template.aux" 1752312739 3057 5c88d7e37348910ef28b27a27e4f4be3 "pdflatex"
-  "template.bbl" 1752312631 2202 6a4a9bb1ff0ae215bbc83b3ccea6f3f4 "bibtex template"
-  "template.out" 1752312739 2670 853ff537d9264d409b1c6117dfd95728 "pdflatex"
-  "template.tex" 1752312736 21134 c896ff198b01aa691dc2541e6015e54c ""
+  "template.aux" 1752606982 5675 1081e990458ed071b7cada86071cb6c3 "pdflatex"
+  "template.bbl" 1752606970 2391 cab50be524a57ade39a246b779572069 "bibtex template"
+  "template.out" 1752606982 3082 25ef33b8819c90acf109a86d16c9a311 "pdflatex"
+  "template.tex" 1752606980 28956 11399ac772b3105296dfc0dc1194efce ""
   (generated)
   "template.aux"
   "template.log"
